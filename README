@@ -1,0 +1,21 @@
+This is a javascript based script for finding the best correlation in numerical arrays of data.
+
+For example, if we take a look at the arrays
+
+[1,2,4]
+
+and 
+
+[1,-3,6]
+
+the best correaltion is that after two intervals from the first interval, the number allways goes up.
+
+You can use this across thousands for numbers in two separate series to find the best connection between inverse/direct relationships, how far out ("tries" or "intervals") these relationship are apart, and how consistant this connection is.
+
+If your response is:
+{offset: 2, rel: "same", correlation: 1}
+Then, there is a 100% consistancy in the relationship overtime. The offset is the number of intervals between the numbers having the inverse/direct relationship. The relationship (or "rel") of the connection is "same", which means direct.
+
+If your correlation is .85, then there is a 85% consistancy.
+
+This can be used to find correlations and train a machine learning algorithm to make decisions based on series of data. 
