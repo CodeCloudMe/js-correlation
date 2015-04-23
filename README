@@ -18,4 +18,11 @@ Then, there is a 100% consistancy in the relationship overtime. The offset is th
 
 If your correlation is .85, then there is a 85% consistancy.
 
-This can be used to find correlations and train a machine learning algorithm to make decisions based on series of data. 
+This can be used to find correlations and train a machine learning algorithm to make decisions based on series of data.
+
+Example Usage
+===============
+
+c = new correlation()
+
+c.findConnection([1,2,4], [1,-3,6]) 

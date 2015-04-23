@@ -63,7 +63,7 @@ var correlation = function(){
                  var before2= series2[k];
                 var after2 = series2[n];
 
-                var toAdd = whenWhat(before1, after1, before2, after2);
+                var toAdd = this.whenWhat(before1, after1, before2, after2);
                 allCor.push(toAdd);
 
 
